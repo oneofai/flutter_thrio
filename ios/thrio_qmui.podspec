@@ -3,15 +3,15 @@
 # Run `pod lib lint thrio.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'thrio'
+  s.name             = 'thrio_qmui'
   s.version          = '0.2.2'
   s.summary          = 'Thrio makes it easy and fast to add flutter to existing mobile applications, and provide a simple and consistent navigator API.'
   s.description      = <<-DESC
 A flutter plugin which enables hybrid integration of flutter for existing ios or android apps.
                        DESC
-  s.homepage         = 'https://github.com/hellobike/thrio'
+  s.homepage         = 'https://github.com/oneofai/thrio'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'hellobike' => 'foxsofter@gmail.com' }
+  s.author           = { 'Sun' => 'holaux@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = ['Classes/*.h',
