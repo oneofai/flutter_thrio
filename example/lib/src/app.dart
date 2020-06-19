@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thrio/thrio.dart';
+import 'package:thrio_qmui/thrio.dart';
 
 import 'sample/module.dart' as sample;
 

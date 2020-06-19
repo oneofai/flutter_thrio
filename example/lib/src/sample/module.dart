@@ -1,4 +1,4 @@
-import 'package:thrio/thrio.dart';
+import 'package:thrio_qmui/thrio.dart';
 
 import 'module1/module.dart' as module1;
 import 'module2/module.dart' as module2;
