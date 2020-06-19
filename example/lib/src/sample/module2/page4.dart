@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thrio_qmui/thrio.dart';
+import 'package:thrio_qmui/thrio_qmui.dart';
 
 class Page4 extends StatefulWidget {
   const Page4({

@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:thrio_qmui/thrio.dart';
+import 'package:thrio_qmui/thrio_qmui.dart';
 import 'page3.dart';
 import 'page4.dart';
 
