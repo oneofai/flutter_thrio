@@ -34,7 +34,10 @@
     panGestureRecognizer.delegate = self.thrio_popGestureRecognizerDelegate;
     panGestureRecognizer.delaysTouchesBegan = YES;
     panGestureRecognizer.edges = UIRectEdgeLeft;
-    id target = self.interactivePopGestureRecognizer.delegate;
+    id target = [self valueForKey:@"qmui_interactivePopGestureRecognizerDelegate"];
+    if (!target) {
+        target = self.interactivePopGestureRecognizer.delegate;
+    }
     SEL action = NSSelectorFromString(@"handleNavigationTransition:");
     [panGestureRecognizer addTarget:target action:action];
 

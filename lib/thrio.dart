@@ -19,7 +19,7 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 
-library thrio;
+library thrio_qmui;
 
 export 'src/channel/thrio_channel.dart';
 export 'src/extension/thrio_build_context.dart';

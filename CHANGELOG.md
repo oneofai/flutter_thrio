@@ -61,3 +61,6 @@
 ## 0.2.2
 
 - fix: iOS index not sync when back gesture.
+## 0.2.2+1
+
+- fix: compatible with iOS QMUIKit.
